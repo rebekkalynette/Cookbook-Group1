@@ -1,0 +1,15 @@
+MEAT
+
+1. Steak
+2. Garlic Salmon
+3. Fried Chicken
+
+VEGETARIAN
+4. Fruit breakfast Bowl
+5. Veggie Soup
+6. Spaghetti Pomodoro
+
+VEGAN
+7. Creamy breakfast Grain
+8. Taco
+9. Vegan Spies
