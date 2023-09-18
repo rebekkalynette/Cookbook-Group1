@@ -35,7 +35,7 @@
     align-items: center;
     flex-direction: row;
     margin-right: 10px;
-    width: 100vw;
+    width: 100%;
     background-color: #9EB384;
     font-size: 1.5rem;
     border-bottom: 10px solid #F78CA2;
@@ -133,7 +133,7 @@
 /* FOOTER STYLING SECTION*/
 footer{
   background-color: #9EB384;
-  height: 400px;
+  height: 500px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -213,14 +213,18 @@ footer p{
   display: flex;
   font-size: 40px;
   text-decoration: none;
-  
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
  
 }
 .footer-icons a{
  
  margin-bottom: 10px;
  color: #0e0d0d;
-
+ height: 50px;
+  width: 30px;
 }
 .fa{
   text-decoration: none;
@@ -229,5 +233,5 @@ footer p{
 }
 .fa:hover{
   color: #f1b647;
-
+  font-size: 45px;
 }
