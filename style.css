@@ -10,6 +10,18 @@
   }
 
     /* Logo top left navbar*/
+    .logo{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+    }
+    .logo p{
+      margin-left: 30px;
+      margin-top: 5px;
+      color: #f1b647;
+      -webkit-text-stroke: 1px black;
+    }
   .logo-img{
     margin-left: 40px;
     height: 70px;
@@ -21,6 +33,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: row;
     margin-right: 10px;
     width: 100vw;
     background-color: #9EB384;
@@ -32,6 +45,9 @@
   .navbar-links {
     list-style-type: none;
     display: flex;
+    margin-top: 10px;
+
+
   }
     /* Styling and placement of a Navbar Elements-Items*/
   .navbar-links li a {
@@ -120,14 +136,15 @@ footer{
   height: 400px;
   display: flex;
   flex-direction: column;
- 
   justify-content: center;
   align-items: center;
+  border-bottom: 10px solid #F78CA2;
 }
 .container-footer{
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
+  margin-bottom: 8px;
 }
 .footer-about{
   
@@ -196,6 +213,7 @@ footer p{
   display: flex;
   font-size: 40px;
   text-decoration: none;
+  
  
 }
 .footer-icons a{
@@ -207,7 +225,9 @@ footer p{
 .fa{
   text-decoration: none;
   margin: 10px 25px;
+  
 }
 .fa:hover{
   color: #f1b647;
+
 }
