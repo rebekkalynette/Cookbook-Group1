@@ -239,3 +239,63 @@ footer p{
 }
 
 
+/* Rebekka Coding Flexboxes */
+
+.containerOverviewOptions {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  gap: 60px;
+  align-items: flex-end;
+}
+
+.recipeOption {
+  max-width: 20%;
+}
+
+.recipeOption img {
+  max-width: 100%;
+  height: auto;
+  margin: 10% 0;
+}
+
+/* Rebekka Styling for aesthetics */
+
+section,
+article {
+  height: 100vh;
+  margin: 300px auto;
+  text-align: center;
+}
+
+hr {
+  border: none;
+  border-top: 2px dotted #435334;
+  text-align: center;
+  width: 7%;
+  margin: 20px auto;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  color: #f1b647;
+}
+
+.recipeOption:hover {
+  opacity: 0.7;
+  /* color: #f1b647; */
+}
+
+h2 {
+  color: #435334;
+  text-transform: uppercase;
+  padding-top: 100px;
+}
+
+h3 {
+  text-transform: uppercase;
+}
