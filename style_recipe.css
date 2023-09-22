@@ -5,6 +5,10 @@
   font-family: 'Rubik', sans-serif;;
 }
 
+html {
+  background-color: red;
+}
+
 body {
   font-family: "Lato", sans-serif;
   background-color: #FAF1E4; 
@@ -93,13 +97,13 @@ body {
   color: black;
 }
 /* Website Title main page*/
-header {
+/*header {
   height: 1000px;
   background-image: url(/header_img/wooden-spoons.png);
   background-size: cover;
   border-bottom: 10px solid #F78CA2;
- 
-}
+  background-color: #FAF1E4;
+ }*/
 
 /*STYLING THE TITLE PAGE*/
 
@@ -239,25 +243,21 @@ font-size: 50px;
 }
 
 
-/*ALINAS CSS CODE*/
+/*ALENAS CSS CODE*/
+
 
 main{
-  background-color: #FAF1E4;
-  margin: 50px 100px;
-  display: flex;
+  padding: 40px;
+  /*display: flex;
   flex-direction: row;
-  flex-wrap:wrap
-
+  flex-wrap: wrap;*/
+  background-color: #FAF1E4;
 }
 
 .section1 {
-display: flex;
-justify-content: center;
-align-items: center;
-width: 100%;
-
-
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .box1 h1 {
@@ -276,7 +276,6 @@ border-radius: 20px;
 .box2 {
 width: 40%;
 margin-left: 15%;
-
 }
 
 .box2 h2 {
@@ -298,12 +297,13 @@ margin-left: 20px;
 .section2 {
 display: flex;
 justify-content: center;
-text-align: center;
+text-align: justify;
 }
 
 .box3 {
 width: 85%;
-margin-top: 30px;
+margin-top: 40px;
+margin-bottom: 25px;
 }
 
 .preparation {
@@ -315,5 +315,5 @@ font-size: 25px;
 .preparation-text {
 font-family: "Roboto", "serif";
 font-size: 15px;
-margin-bottom: 15px
+margin-bottom: 15px;
 }
