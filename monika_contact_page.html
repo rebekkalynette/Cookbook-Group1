@@ -19,7 +19,8 @@
       integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="monika_header_footer.css" />
+    <link rel="stylesheet" href="monika_contact_page.css" />
+    <link rel="contact_page" href="monika_contact_page.html">
   </head>
   <body>
     <header>
@@ -36,31 +37,55 @@
 
         <ul class="navbar-links">
           <li class="navbar-dropdown">
-            <a href="#home">HOME</a>
+            <a href="/monika_header_footer.html#home">HOME</a>
           </li>
           <li class="navbar-dropdown">
-            <a href="#categories">RECIPES</a>
+            <a href="#">RECIPES</a>
             <div class="dropdown">
-              <a href="#meats">MEAT</a>
-              <a href="#vegetarians">VEGETARIAN</a>
-              <a href="#vegans">VEGAN</a>
+              <a href="#">MEAT</a>
+              <a href="#">VEGETARIAN</a>
+              <a href="#">VEGAN</a>
             </div>
           </li>
 
           <li class="navbar-dropdown">
-            <a href="/monika_contact_page.html">CONTACT</a>
+            <a href="#contact">CONTACT</a>
           </li>
           <li class="navbar-dropdown">
             <a href="#about">ABOUT</a>
           </li>
         </ul>
       </nav>
-      <div class="website-titles">
-        <h1 class="big-title">COOK</h1>
-        <p class="small-title">by the Ladies</p>
-        <h1 class="big-title">BOOK</h1>
+
+      <div class="container">
+        <div class="form-container">
+          <h2 >Contact Us</h2>
+  
+          <div class="form-group">
+            <label for="text">FULL NAME</label>
+            <input type="text" class="form-control"  required id="name" placeholder="Full Name">
+          
+  
+            <label for="email">EMAIL</label>
+            <input type="email" class="form-control" required id="email" placeholder="Email">
+          
+  
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" class="form-control" id="phone" placeholder="Phone">
+          
+  
+            <label for="text">MESSAGE</label>
+            <textarea class="form-control" id="message" rows="3" placeholder="Your message..."></textarea>
+          </div>
+  
+          <button type="button" class="btn">Submit</button>
+        </div>
       </div>
-    </header>
+
+
+
+
+     </header>
 
     
     
@@ -83,9 +108,9 @@
           <ul class="footer-links">
             <li><a href="#about">ABOUT</a></li>
             <li>
-              <a href="/monika_contact_page.html">CONTACT US!</a>
+              <a href="#contact">CONTACT US!</a>
             </li>
-            <li><a href="#home">HOME</a></li>
+            <li><a href="/monika_header_footer.html#home">HOME</a></li>
           </ul>
         </div>
         <div class="footer-subscribe">
