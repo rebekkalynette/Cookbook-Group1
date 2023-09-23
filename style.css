@@ -285,8 +285,16 @@ a:hover {
   color: #f1b647;
 }
 
+img {
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
 .recipeOption:hover {
-  opacity: 0.7;
   /* color: #f1b647; */
 }
 
