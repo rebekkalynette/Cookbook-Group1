@@ -276,13 +276,13 @@ border-radius: 20px;
 
 .box2 h3 {
 text-transform: uppercase;
-font-weight: 500;
+font-weight: 600;
 font-size: 25px;
 margin-left: 15px;
 }
 
 .box2 ul {
-list-style: circle;
+list-style:disc;
 font-size: 20px;
 }
 
@@ -292,12 +292,12 @@ font-size: 20px;
   margin-top: 50px;
 }
 
-.preparation {
+.preparation h2 {
 font-size: 25px;
 text-align: center;
 margin-bottom: 25px;
 text-transform: uppercase;
-font-weight: 400;
+font-weight: 600;
 
 }
 
