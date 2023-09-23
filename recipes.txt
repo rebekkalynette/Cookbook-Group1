@@ -1,15 +1,15 @@
 MEAT
 
-1. Steak (steak.html)
-2. Garlic Salmon (salmon.html)
-3. Fried Chicken (chicken.html)
+1. Steak (01_alena_steak.html)
+2. Garlic Salmon (02_alena_salmon.html)
+3. Fried Chicken (03_alena_chicken.html)
 
 VEGETARIAN
-4. Fruit breakfast Bowl (fruit.html)
-5. Veggie Soup (soup.html)
-6. Spaghetti Pomodoro (spaghetti.html)
+4. Fruit breakfast Bowl (04_alena_fruit.html)
+5. Veggie Soup (05_alena_soup.html)
+6. Spaghetti Pomodoro (06_alena_spaghetti.html)
 
 VEGAN
-7. Creamy breakfast Grain (grain.html)
-8. Taco (taco.html)
-9. Vegan Spies (spies.html)
+7. Creamy breakfast Grain (07_alena_grain.html)
+8. Taco (08_alena_taco.html)
+9. Vegan Spies (09_alena_spies.html)
