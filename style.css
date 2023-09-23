@@ -140,7 +140,7 @@ footer{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-bottom: 10px solid #F78CA2;
+  border-top: 10px solid #F78CA2;
 }
 .container-footer{
   display: flex;
