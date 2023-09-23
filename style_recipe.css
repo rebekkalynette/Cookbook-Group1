@@ -5,9 +5,6 @@
   font-family: 'Rubik', sans-serif;;
 }
 
-html {
-  background-color: red;
-}
 
 body {
   font-family: "Lato", sans-serif;
@@ -144,7 +141,7 @@ display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
-border-bottom: 10px solid #F78CA2;
+border-top: 10px solid #F78CA2;
 }
 .container-footer{
 display: flex;
