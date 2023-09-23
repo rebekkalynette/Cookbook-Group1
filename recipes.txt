@@ -10,6 +10,6 @@ VEGETARIAN
 6. Spaghetti Pomodoro (06_alena_spaghetti.html)
 
 VEGAN
-7. Creamy breakfast Grain (07_alena_grain.html)
+7. Creamy breakfast grain Toast (07_alena_grain.html)
 8. Taco (08_alena_taco.html)
-9. Vegan Spies (09_alena_spies.html)
+9. Vegan Kebab (09_alena_kebab.html)
