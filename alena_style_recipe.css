@@ -277,20 +277,44 @@ main{
 }
 
 .box1 {
-  margin-right: 15px;
+  margin: 15px;
 }
 
 .box1 h1 {
-font-size: 35px;
+font-size: 30px;
 text-transform: uppercase;
 font-weight: 600;
 }
 
 .box1 img {
 width: 500px;
+height: 300px;
 border-radius: 20px;
+margin-top: 30px
 }
 
+
+
+@media screen and (max-width: 375px) {
+  .box1 img {
+    width:350px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .box1 img {
+    width:350px;
+    height: 250px;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .box1 img {
+    width:250px;
+    height: 150px;
+  }
+}
 
 .box2 {
   margin: 5%;
@@ -300,19 +324,94 @@ border-radius: 20px;
 .box2 h3 {
 text-transform: uppercase;
 font-weight: 600;
-font-size: 25px;
-margin-left: 15px;
+font-size: 20px;
+margin-left: 20px;
+border-bottom: 2px solid;
 }
 
+.box2 .tooltip-text{
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: #0e0d0d;
+  font-family: 'Gluten', cursive;
+  text-align: center;
+  border-radius: 6px;
+  padding: 3px;
+  top: 3px;
+  left: 0%;
+}
+
+.box2:hover .tooltip-text{
+  visibility: visible;
+}
+
+.box2 label {
+  position: relative;
+  display: block;
+  margin: 12px 20px;
+  cursor: pointer;
+}
+
+.box2 input[type="checkbox"] {
+  -webkit-appearance: none;
+}
+
+.box2 i {
+  position: absolute;
+  top: 2px;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid grey;
+}
+
+.box2 input[type="checkbox"]:checked ~i {
+  top: 1;
+  border-top: none;
+  border-right: none;
+  height: 15px;
+  width: 25px;
+  transform: rotate(-45deg);
+}
+
+.box2 span {
+  position: relative;
+  left: 40px;
+  transition: 0.5s;
+}
+
+.box2 span:before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: #0e0d0d;
+  transform: translateY(-50%) scaleX(0);
+    transform-origin: right;
+  transition: transform 0.5s;
+}
+
+.box2 input[type="checkbox"]:checked ~span:before {
+  transform: translateY(-50%) scaleX(1);
+  transform-origin: left;
+  transition: transform 0.5s;
+}
+.box2 input[type="checkbox"]:checked ~span {
+  color: grey;
+}
+
+/*
 .box2 ul {
 list-style:disc;
 font-size: 20px;
-}
-
+}*/
 
 .box3 {
   width: 85%;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 .preparation h2 {
@@ -321,6 +420,7 @@ text-align: center;
 margin-bottom: 25px;
 text-transform: uppercase;
 font-weight: 600;
+border-bottom: 2px solid;
 
 }
 
